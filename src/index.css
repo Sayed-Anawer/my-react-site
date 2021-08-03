@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Open Sans;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1359CD;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 650px;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 3px;
+    box-shadow: 0 0 20px 2px #002053;
+    padding: 10px;
+    background-color: #F3F3F4;
+    border-radius: 15px;
+}
+
+/* Header of Payment Receipt */
+.header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+h1{
+   font-weight: bold;
+   word-spacing: 5px; 
+}
+.pay{
+    color: gray;
+    opacity: 0.6;
+    line-height:0.7rem;
+}
+/* Simple Description */
+.simple-desc{
+    font-size: 18px;
+    width: 90%;
+    color: gray;
+    line-height: 2rem;
+    opacity: 0.8;
+}
+
+.purchase-items{
+    margin-top: 50px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1%;
+}
+hr {
+    border-top: 1.5px dashed rgba(128, 128, 128, 0.2);
+    color: #fff;
+    width: 95%;
+  }
+img{
+    margin-top: 30%;
+    width: 88px;
+    height: 85px;
+
+}
+
+.invoice-section{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.invoice{
+    color: gray;
+    opacity: 0.7;
+    font-size: 16px;
+}
+.fas{
+    font-size: 1.8rem;
+    color: gray;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+.In{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.Inlist{
+    color: gray;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.gaph{
+    margin-left: 40px;
+    
+}
+.gaph1{
+    margin-left: 30px;
+}
+.gaph3{
+    margin-left: 40px;
+}
+.invoice-section .company{
+    margin-top: 2%;
+    color: gray;
+    opacity: 0.6;
+    font-size: 18px;
+}
+.me{
+    display: inline;
+}
